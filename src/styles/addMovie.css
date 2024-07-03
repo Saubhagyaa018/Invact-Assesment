@@ -1,0 +1,38 @@
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 135vh;
+}
+.form-div{
+    padding: 2rem;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+    width:50vw;
+}
+.movieForm{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.movieForm label{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.movieForm label p{
+    width: 60%;
+}
+#input{
+    margin-left:15px;
+}
+#addmovie{
+    height:5vh;
+    width:15vh;
+    border-radius: 10%;
+    background-color: rgb(238, 97, 97);
+}

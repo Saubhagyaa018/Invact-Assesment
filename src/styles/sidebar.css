@@ -1,0 +1,38 @@
+.sidebar{
+     width:25%;  
+    height: 100vh;
+    padding: 2rem;
+    border-right: 1px solid rgb(145, 145, 145);
+
+}
+.sidebar h2{
+    font-size: 3rem;
+    /* text-align: center; */
+    color:#f3400a;
+
+}
+#nav-ul{
+    margin-top: 3rem;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    list-style-type: none;
+    border-radius: 10px;
+    
+}
+#nav-ul li{
+    border-left: 5px solid #f3400a;
+    padding-left: 1rem;
+}
+#nav-ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:black;
+
+}
+
+#nav-ul li a:visited{
+    color:black;
+    text-decoration: none;
+}
+
